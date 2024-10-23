@@ -8,7 +8,7 @@
 #include <CommDlg.h>
 #include <stdio.h>
 #include <ctime>
-#include <cstdlib>
+#include <cstdlib
 #define _CRT_SECURE_NO_WARNINGS
 using namespace std;
 
@@ -189,7 +189,7 @@ BOOL CALLBACK insesion(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 					ShowWindow(hMisenvio, SW_SHOW);
 					DestroyWindow(hWnd);
 				}else {
-					MessageBox(hWnd, "Contraseña incorrecta", "", MB_OK | MB_ICONERROR);
+					MessageBox(hWnd, "ContraseÃ±a incorrecta", "", MB_OK | MB_ICONERROR);
 				}
 			}
 			break;
@@ -362,7 +362,7 @@ BOOL CALLBACK infovendedor(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 			break;
 		case ID_SALIR_GUARDARYSALIR:
-			int opc = MessageBox(hWnd, "¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
+			int opc = MessageBox(hWnd, "Â¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
 			switch (opc) {
 			case IDYES:
 				escribirenvios();
@@ -511,7 +511,7 @@ BOOL CALLBACK nvproducto(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 			break;
 		case ID_SALIR_GUARDARYSALIR:
-			int opc = MessageBox(hWnd, "¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
+			int opc = MessageBox(hWnd, "Â¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
 			switch (opc) {
 			case IDYES:
 				escribirenvios();
@@ -657,7 +657,7 @@ BOOL CALLBACK misproducto(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 			break;
 		case ID_SALIR_GUARDARYSALIR:
-			int opc = MessageBox(hWnd, "¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
+			int opc = MessageBox(hWnd, "Â¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
 			switch (opc) {
 			case IDYES:
 				escribirenvios();
@@ -793,7 +793,7 @@ BOOL CALLBACK eliproducto(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 			break;
 		case ID_SALIR_GUARDARYSALIR:
-			int opc = MessageBox(hWnd, "¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
+			int opc = MessageBox(hWnd, "Â¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
 			switch (opc) {
 			case IDYES:
 				escribirenvios();
@@ -976,7 +976,7 @@ BOOL CALLBACK editproducto(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 			break;
 		case ID_SALIR_GUARDARYSALIR:
-			int opc = MessageBox(hWnd, "¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
+			int opc = MessageBox(hWnd, "Â¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
 			switch (opc) {
 			case IDYES:
 				escribirenvios();
@@ -1113,7 +1113,7 @@ BOOL CALLBACK realizarenvi(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 			break;
 		case ID_SALIR_GUARDARYSALIR:
-			int opc = MessageBox(hWnd, "¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
+			int opc = MessageBox(hWnd, "Â¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
 			switch (opc) {
 			case IDYES:
 				escribirenvios();
@@ -1299,7 +1299,7 @@ BOOL CALLBACK canenvio(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 			break;
 		case ID_SALIR_GUARDARYSALIR:
-			int opc = MessageBox(hWnd, "¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
+			int opc = MessageBox(hWnd, "Â¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
 			switch (opc) {
 			case IDYES:
 				escribirenvios();
@@ -1446,7 +1446,7 @@ BOOL CALLBACK editenvio(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 			break;
 		case ID_SALIR_GUARDARYSALIR:
-			int opc = MessageBox(hWnd, "¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
+			int opc = MessageBox(hWnd, "Â¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
 			switch (opc) {
 			case IDYES:
 				escribirenvios();
@@ -1591,7 +1591,7 @@ BOOL CALLBACK misenvio(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 			break;
 		case ID_SALIR_GUARDARYSALIR:
-			int opc = MessageBox(hWnd, "¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
+			int opc = MessageBox(hWnd, "Â¿Seguro que desea salir y guardar todo lo modificado?", "AVISO", MB_YESNO | MB_ICONQUESTION);
 			switch (opc) {
 			case IDYES:
 				escribirenvios();
