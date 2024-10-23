@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (PIA PA DANIEL.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Source.cpp
+C:\Users\User\Downloads\PIA PA Final\Source.cpp(996,6): warning C4101: 'indice': variable local sin referencia
+C:\Users\User\Downloads\PIA PA Final\Source.cpp(1319,6): warning C4101: 'anio': variable local sin referencia
+C:\Users\User\Downloads\PIA PA Final\Source.cpp(1317,6): warning C4101: 'dia': variable local sin referencia
+C:\Users\User\Downloads\PIA PA Final\Source.cpp(1318,6): warning C4101: 'mes': variable local sin referencia
+  PIA PA DANIEL.vcxproj -> C:\Users\User\Downloads\PIA PA Final\Debug\PIA PA FINAL.exe
