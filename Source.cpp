@@ -8,7 +8,7 @@
 #include <CommDlg.h>
 #include <stdio.h>
 #include <ctime>
-#include <cstdlib
+#include <cstdlib>
 #define _CRT_SECURE_NO_WARNINGS
 using namespace std;
 
